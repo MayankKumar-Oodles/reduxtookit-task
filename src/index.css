@@ -1,0 +1,113 @@
+body{
+     margin:0px;
+     padding:0px;
+     font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.content{
+          /* background-color:lightsteelblue; */
+          height:100vh;
+          width:100vw;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+}
+
+.admin-table{
+         
+    /* border:1px solid black; */
+ 
+    height:12vh;
+    width:90vw;
+    /* background-color: darkgrey; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+     align-items: center;
+     border-bottom: 4px solid grey;
+  
+}
+
+.admin-subtitle{
+    padding:0 2vw;
+   
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.add-btn  {
+       padding:1vw 0vw ;
+       width:10%;
+       border:none;
+       border-radius: 1vw;
+       color:black;
+       font-weight: bold;
+       font-size: 1.5vw;
+
+        
+}
+.clear-btn{
+    padding:1vw ;
+    width:10%;
+    border:none;
+    border-radius: 1vw;
+    color:black;
+    font-weight: bold;
+    font-size: 1.5vw;
+
+}
+.add-btn:hover{
+    background-color:rgb(226, 220, 132);
+
+}
+
+.clear-btn:hover{
+    background-color:rgb(250, 146, 76);
+
+}
+
+ 
+
+.data-list{
+    /* background-color: red; */
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:90vw;
+    list-style-type: none;
+    align-self:flex-start;
+}
+
+li{
+    padding: 1vw;
+    /* background-color: red; */
+    display:flex;
+    justify-content: space-between;
+    border:3px solid rgb(207, 243, 252);
+    border-top: 0px;
+    border-left:0px;
+    border-right:0px;
+   
+    
+}
+
+.delete-icon{
+     font-size: 2vw;
+     border:none;
+     color:black;
+
+}
+
+.delete-icon:hover{
+    color:red
+}
+
+.delete-btn{
+    border:none;
+    border-radius: 10%;
+}
+.delete-btn:hover{
+    background-color: lightcyan;
+}
